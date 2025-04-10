@@ -1,0 +1,80 @@
+h1 {
+    text-align: center;
+    font-size: 25pt;
+    font-family: "Times New Roman", Times, serif;
+    color: rgb(12, 12, 72);
+    text-decoration: underline;
+    background-color: slategray;
+    padding: 25px;
+    margin: 15px;
+    position: relative;
+  }
+  nav {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+  nav ul li {
+    margin: 0 15px;
+  }
+  nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 12pt;
+  }
+  h2 {
+    text-align: center;
+    color: red;
+  }
+  h3 {
+    text-align: center;
+    font-size: 16pt;
+    color: red;
+  }
+  .quicklinks {
+    color: black;
+    text-align: left;
+  }
+  #List {
+    text-align: left;
+  }
+  #About-me {
+    font-family: "Times New Roman", Times, serif;
+    color: red;
+  }
+  #MyInterests {
+    font-family: "Times New Roman", Times, serif;
+    color: red;
+  }
+  #ContactInfo {
+    font-family: "Times New Roman", Times, serif;
+    color: red;
+  }
+  img {
+    align-items: center;
+    border: 10px solid rgb(12, 12, 72);
+  }
+  ol {
+    list-style-type: upper-roman;
+  }
+  ul {
+    list-style-image: url(images/smiley.gif);
+  }
+  p::first-letter {
+    font-size: 2em;
+  }
+  .divborder {
+    border-top: 3px solid black;
+  }
+  nav ul li a:hover {
+color: yellow;
+  }

@@ -1,0 +1,24 @@
+h1 {
+    text-align: center;
+    font-size: 25pt;
+    font-family: "Times New Roman", Times, serif;
+    color: rgb(12, 12, 72);
+    text-decoration: underline;
+    background-color: slategray;
+    padding: 25px;
+    margin: 15px;
+  }
+  .divborder {
+    border-top: 3px solid black;
+  }
+  h2 {
+    text-align: center;
+    color: red;
+    font-family: "Times New Roman", Times, serif;
+  }
+  img {
+    transition: transform 0.3s ease;
+  }
+  img:hover {
+    transform: scale(1.1);
+  }
